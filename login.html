@@ -18,23 +18,32 @@
             </div>
 
             <div id="formulario">
+
                 <h1>Login</h1>
                 <p>Seja Bem-Vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post" autocomplete="on">
 
-                    <!-- Campos de Login/Senha -->
+
+                    <!-- Campos de Login -->
                     <div class="campo">
                         <span class="material-symbols-rounded">home</span>
                         <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
+
                         <label for="ilogin">Login</label>
                     </div>
 
+
+
+                    <!-- Campos de Senha -->
                     <div class="campo">
                         <span class="material-symbols-rounded">vpn_key</span>
                         <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="15">
+
                         <label for="isenha">Senha</label>                        
                     </div>
 
+
+                    <!-- Campos de Botões -->
                     <input type="submit" value="Entrar">
                     <input type="reset" value="Limpar">
                     <a href="esqueci.html">
