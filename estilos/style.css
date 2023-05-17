@@ -50,6 +50,10 @@ section#login {
     border-radius: 25px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 
+    /* Animação da troca de telas */
+    transition: width .2s, height .2s;
+    transition-timing-function: ease; /* Suaviza a transição da animação */
+
 }
 
 
