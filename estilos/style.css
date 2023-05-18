@@ -43,16 +43,16 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden; /* Tudo que tiver fora da borda, vai ficar redondo */
 
     background-color: white;
-    width: 275px;
+    width: 290px;
     height: 540px;
     border-radius: 25px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 
     /* Animação da troca de telas */
+    transform: translate(-50%, -50%);
     transition: width .2s, height .2s;
     transition-timing-function: ease; /* Suaviza a transição da animação */
 
@@ -88,6 +88,7 @@ div#formulario > h1 {
 /* Configuração da div FORMULARIO P */
 div#formulario > p {
     font-size: .7em;
+    margin: 15px 0px;
 }
 
 
@@ -97,16 +98,50 @@ div#formulario > p {
 /* Configuração da div FORMULARIO CAMPO EMAIL/SENHA */
 form > div.campo {
     background-color: #737373;
+    border: 2px solid black;
     display: block;
     height: 40px;
     width: 100%;
-    margin: 3px 0px;
-    border-radius: 10px;
+    margin: 5px 0px;
+    border-radius: 8px;
 }
 /* Configuração da div FORMULARIO CAMPO EMAIL/SENHA   DESABILITAR A LABEL COM "Login / Senha" */
 div.campo > label {
     display: none;
 }
+
+
+
+
+
+
+
+/* Configuração do ICONES / CAIXA DE TEXTO */
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    /*background-color: black;*/
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: rgb(187, 184, 184);
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 45.1px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 9px;
+    transform: translateY(-14px);
+}
+
+/* Deixa a caixa de texto branca ao digitar */
+div.campo > input:focus-within {
+    background-color: white;
+}
+
+
 
 
 
