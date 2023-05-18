@@ -20,8 +20,13 @@ Grandes Telas: acima de 1200px
 
     section#login {
         width: 80vw;
-        height: 330px;
+        height: 350px;
         
+    }
+
+    div#formulario > h1 {
+        font-size: 1.7em;
+        border-radius: 3px 15px 3px 3px;
     }
 
     section#login > div#imagem {
@@ -70,6 +75,7 @@ Grandes Telas: acima de 1200px
 
     div#formulario > h1 {
         font-size: 2em;
+        border-radius: 15px 4px 4px 4px;
     }
 
     div#formulario > p {
