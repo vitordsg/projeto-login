@@ -83,6 +83,7 @@ section#login > div#formulario {
 /* Configuração da div FORMULARIO H1 */
 div#formulario > h1 {
     background-color: #999999;
+    color: white;
     display: block;
     border-radius: 10px 10px 3px 3px;
     font-size: 1.3em;
@@ -100,7 +101,7 @@ div#formulario > p {
 
 
 /* Configuração da div FORMULARIO CAMPO EMAIL/SENHA */
-form > div.campo {
+form .campo {
     background-color: #737373;
     border: 2px solid black;
     display: block;
@@ -109,27 +110,16 @@ form > div.campo {
     margin: 5px 0px;
     border-radius: 8px;
 }
-/* Configuração da div FORMULARIO CAMPO EMAIL/SENHA   DESABILITAR A LABEL COM "Login / Senha" */
-div.campo > label {
-    display: none;
-}
-
-
-
-
-
-
 
 /* Configuração do ICONES / CAIXA DE TEXTO */
-div.campo > span {
+.campo span {
     color: white;
     font-size: 2em;
-    /*background-color: black;*/
     width: 40px;
     padding: 5px;
 }
 
-div.campo > input {
+.campo input {
     background-color: rgb(187, 184, 184);
     font-size: 1em;
     height: 100%;
