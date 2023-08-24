@@ -40,7 +40,7 @@ main {
 
 
 /* Configuração do LOGIN */
-section#login {
+.login {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -63,7 +63,7 @@ section#login {
 
 
 /* Configuração da IMAGEM na div */
-section#login > div#imagem {
+.login .imagem {
     display: block;
     background:  #737373 url(../imagens/fundo-login.jpg) no-repeat;
     background-position: left bottom;
@@ -76,12 +76,12 @@ section#login > div#imagem {
 
 
 /* Configuração da div FORMULARIO */
-section#login > div#formulario {
+.login .formulario {
     display: block;
     padding: 10px;
 }
 /* Configuração da div FORMULARIO H1 */
-div#formulario > h1 {
+.formulario h1 {
     background-color: #999999;
     color: white;
     display: block;
@@ -91,7 +91,7 @@ div#formulario > h1 {
     margin-bottom: 10px;
 }
 /* Configuração da div FORMULARIO P */
-div#formulario > p {
+.formulario  p {
     font-size: .7em;
     margin: 15px 0px;
 }
@@ -131,7 +131,7 @@ form .campo {
 }
 
 /* Deixa a caixa de texto branca ao digitar */
-div.campo > input:focus-within {
+div.campo input:focus-within {
     background-color: white;
 }
 
@@ -141,7 +141,7 @@ div.campo > input:focus-within {
 
 
 /* Configuração do Botão ENTRAR / Aplicando Estilos com CSS */
-form > input[type=submit] {
+form input[type=submit] {
     margin-top: 10px;
     display: block;
     font-size: 1em;
@@ -154,7 +154,7 @@ form > input[type=submit] {
     cursor: pointer;
 }
 /* Animação do Botão ENTRAR com CSS */
-form > input[type=submit]:hover {
+form input[type=submit]:hover {
     background-color: #737373b0;
 }
 
@@ -164,7 +164,7 @@ form > input[type=submit]:hover {
 
 
 /* Configuração do Botão LIMPAR / Aplicando Estilos CSS */
-form > input[type=reset] {
+form input[type=reset] {
     margin-top: 10px;
     display: block;
     font-size: 1em;
@@ -177,7 +177,7 @@ form > input[type=reset] {
     cursor: pointer;
 }
 /* Animação do Botão LIMPAR com CSS*/
-form > input[type=reset]:hover {
+form input[type=reset]:hover {
     background-color: #737373b0;
 }
 
@@ -187,7 +187,7 @@ form > input[type=reset]:hover {
 
 
 /* Configuração do Botão ESQUECI A SENHA / Aplicando Estilos com CSS/ link transformado em Botão */
-form > a.botao {
+form a.botao {
     display: block;
     text-align: center;
     font-size: 1em;
@@ -203,11 +203,20 @@ form > a.botao {
 }
 
 /* Animação do Botão ESQUECI A SENHA */
-form > a.botao:hover {
+form a.botao:hover {
     background-color: #737373;
 }
 
 /* Tamanho do Icone do Botão ESQUECI A SENHA */
-form > a.botao > i {
+form a.botao i {
     font-size: 1em;
+}
+
+.rodape {
+    font: italic bolder 1em Roboto Condensed, sans-serif;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background: #737373;
 }
