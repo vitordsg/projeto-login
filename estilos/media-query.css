@@ -10,7 +10,6 @@ Grandes Telas: acima de 1200px
 
 */
 
-
 /* Configuração para TABLET */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
@@ -44,10 +43,6 @@ Grandes Telas: acima de 1200px
     }
 
 }
-
-
-
-
 
 /* Configuração para TELAS GRANDES */
 @media screen  and (min-width: 992px) {
