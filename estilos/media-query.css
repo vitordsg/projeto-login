@@ -20,7 +20,7 @@ Grandes Telas: acima de 1200px
 
     .login {
         width: 80vw;
-        height: 350px;
+        height: 400px;
         
     }
 
@@ -58,7 +58,7 @@ Grandes Telas: acima de 1200px
 
     .login {
         width: 950px;
-        height: 400px;
+        height: 430px;
         
     }
 
@@ -79,7 +79,7 @@ Grandes Telas: acima de 1200px
     }
 
     .formulario  p {
-        font-size: 1em;
+        font-size: .8em;
         margin: 30px 0px;
     }
 }
