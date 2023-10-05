@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +9,22 @@
     <link rel="stylesheet" href="estilos/media-query.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
     <title>Tela de Login</title>
 </head>
+
 <body>
     <main>
         <section class="login">
             <div class="imagem">
-                
+
             </div>
 
             <div class="formulario">
 
                 <h1>Login</h1>
-                <p>Seja Bem-Vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <p>Faça login para acessar sua conta.</p>
                 <form action="login.php" method="post" autocomplete="on">
 
 
@@ -41,22 +43,22 @@
                         <span class="material-symbols-rounded">vpn_key</span>
                         <input type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="current-password" required minlength="8" maxlength="15">
 
-                        <label for="isenha"></label>                        
+                        <label for="isenha"></label>
                     </div>
 
 
                     <!-- Campos de Botões -->
-                    <input type="submit" value="Entrar">
-                    <input type="reset" value="Limpar">
-                    <a href="esqueci.html" class="botao">
-                        Esqueci a senha<i class="material-symbols-rounded">mail</i>
-                    </a>
+                    <div class="botoes">
+                        <input type="submit" value="Entrar">
+                        <input type="reset" value="Limpar">
+                        <a href="esqueci.html" class="botao">
+                            Esqueci a senha<i class="material-symbols-rounded">mail</i>
+                        </a>
+                    </div>
                 </form>
             </div>
         </section>
     </main>
-    <footer class="rodape">
-        <p>&copy; Vitor Santos</p>
-    </footer>
 </body>
+
 </html>
