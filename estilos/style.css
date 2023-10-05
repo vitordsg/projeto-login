@@ -88,7 +88,6 @@ main {
 /* Configuração da div FORMULARIO CAMPO EMAIL/SENHA */
 form .campo {
   /* background-color: #737373; */
-  /* border: 2px solid black; */
   display: block;
   height: 40px;
   width: 100%;
@@ -115,7 +114,7 @@ form .campo {
   transform: translateY(-14px);
 }
 
-/* Deixa a caixa de texto branca ao digitar */
+/* Retirar a seleção das caixas de texto */
 .campo input:focus,
 select:focus {
   border: 0 none;
@@ -177,7 +176,6 @@ form input[type="reset"]:hover {
 form a.botao {
   display: block;
   text-align: center;
-
   font-size: 1em;
   width: 50%;
   height: 40px;
