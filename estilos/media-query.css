@@ -45,9 +45,15 @@ Grandes Telas: acima de 1200px
   }
 
   form a.botao {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    width: 10rem;
+  }
+
+  form a.criarConta {
     grid-row: 3;
     grid-column: 1 / -1;
-    width: 15rem;
+    width: 10rem;
   }
 
   form input[type="submit"] {
@@ -69,7 +75,7 @@ Grandes Telas: acima de 1200px
 
   .login {
     width: 950px;
-    height: 430px;
+    height: 460px;
   }
 
   .login .imagem {
@@ -100,9 +106,15 @@ Grandes Telas: acima de 1200px
   }
 
   form a.botao {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    width: 10rem;
+  }
+
+  form a.criarConta {
     grid-row: 3;
     grid-column: 1 / -1;
-    width: 15rem;
+    width: 10rem;
   }
 
   form input[type="submit"] {

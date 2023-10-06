@@ -125,17 +125,19 @@ select:focus {
 
 .botoes {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   place-items: center;
-  gap: 10px 20px;
+  gap: 24px 10px;
+  margin-top: 20px;
 }
 
 /* Configuração do Botão ENTRAR */
 form input[type="submit"] {
-  margin-top: 10px;
   display: block;
+  grid-column: 1;
+  margin-top: 10px;
   font-size: 1em;
-  width: 7.5rem;
+  width: 6rem;
   height: 40px;
   background-color: #d9d9d9;
   border: none;
@@ -157,7 +159,7 @@ form input[type="reset"] {
   margin-top: 10px;
   display: block;
   font-size: 1em;
-  width: 7.5rem;
+  width: 6rem;
   height: 40px;
   background-color: #d9d9d9;
   border: none;
@@ -177,13 +179,13 @@ form input[type="reset"]:hover {
 /* Configuração do Botão ESQUECI A SENHA */
 form a.botao {
   display: block;
-  grid-row: 1;
+  grid-row: 2;
+  grid-column: 1 / -1;
   text-align: center;
-  font-size: 1em;
-  width: 10rem;
+  font-size: .8rem;
+  width: 9rem;
   height: 40px;
   padding-top: 10px;
-  margin-top: 10px;
   border-radius: 10px;
   text-decoration: none;
   transition: .3s;
@@ -192,12 +194,31 @@ form a.botao {
 
 /* Animação do Botão ESQUECI A SENHA */
 form a.botao:hover {
-  background-color: #a8a8a8;
-  color: white;
+  text-decoration: underline;
+  font-size: .9rem;
   transition: .3s;
 }
 
 /* Tamanho do Icone do Botão ESQUECI A SENHA */
 form a.botao i {
   font-size: 1em;
+}
+
+form a.criarConta {
+  display: block;
+  grid-row: 3;
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: .8rem;
+  width: 6rem;
+  height: 40px;
+  padding-top: 10px;
+  text-decoration: none;
+  color: rgba(0, 0, 255, 0.796);
+}
+
+form a.criarConta:hover {
+  text-decoration: underline;
+  font-size: .9rem;
+  transition: .3s;
 }
