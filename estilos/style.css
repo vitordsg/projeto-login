@@ -37,11 +37,11 @@ main {
   position: absolute;
   top: 50%;
   left: 50%;
-  overflow: hidden; /* Tudo que tiver fora da borda, vai ficar redondo */
+  overflow: hidden;
 
   background-color: white;
   width: 290px;
-  height: 650px;
+  height: 600px;
   border-radius: 25px;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
 
@@ -87,7 +87,6 @@ main {
 
 /* Configuração da div FORMULARIO CAMPO EMAIL/SENHA */
 form .campo {
-  /* background-color: #737373; */
   display: block;
   height: 40px;
   width: 100%;
@@ -105,7 +104,7 @@ form .campo {
 
 .campo input {
   background-color: #eee;
-  font-size: .9em;
+  font-size: .9rem;
   height: 100%;
   border: none;
   border-radius: px;
@@ -123,11 +122,10 @@ select:focus {
 }
 
 .botoes {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 20px;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 10px 20px;
 }
 
 /* Configuração do Botão ENTRAR */
@@ -135,7 +133,7 @@ form input[type="submit"] {
   margin-top: 10px;
   display: block;
   font-size: 1em;
-  width: 150px;
+  width: 7.5rem;
   height: 40px;
   background-color: #ffffff;
   border: none;
@@ -151,40 +149,40 @@ form input[type="submit"]:hover {
   color: white;
 }
 
-/* Configuração do Botão LIMPAR / Aplicando Estilos CSS */
+/* Configuração do Botão LIMPAR */
 form input[type="reset"] {
   margin-top: 10px;
   display: block;
   font-size: 1em;
-  width: 50%;
+  width: 7.5rem;
   height: 40px;
   background-color: #ffffff;
   border: none;
   border-radius: 10px;
-  box-shadow: 1px 4px 7px black;
+  box-shadow: 1px 5px 5px black;
   color: black;
   cursor: pointer;
+  transition: .3s;
 }
 
 /* Animação do Botão LIMPAR com CSS*/
 form input[type="reset"]:hover {
   background-color: #737373b0;
   color: white;
+  transition: .3s;
 }
 
-/* Configuração do Botão ESQUECI A SENHA / Aplicando Estilos com CSS/ link transformado em Botão */
+/* Configuração do Botão ESQUECI A SENHA */
 form a.botao {
   display: block;
+  grid-row: 1;
   text-align: center;
   font-size: 1em;
   width: 50%;
   height: 40px;
   padding-top: 10px;
-  margin-top: 40px;
   background-color: #ffffff;
-  border: 1px solid #a6a6a6;
   border-radius: 10px;
-  box-shadow: 1px 4px 7px black;
   text-decoration: none;
   color: black;
 }
