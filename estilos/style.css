@@ -48,7 +48,7 @@ main {
   /* Animação da troca de telas */
   transform: translate(-50%, -50%);
   transition: width 0.2s, height 0.2s;
-  transition-timing-function: ease; /* Suaviza a transição da animação */
+  transition-timing-function: ease;
 }
 
 /* Configuração da IMAGEM na div */
@@ -68,7 +68,7 @@ main {
 /* Configuração da div FORMULARIO H1 */
 .formulario h1 {
   font-family: "Russo One", sans-serif;
-  color: rgb(113, 113, 113);
+  color: #9d9d9d;
   display: block;
   font-size: 2rem;
   font-weight: bolder;
@@ -76,6 +76,7 @@ main {
   letter-spacing: 0.2rem;
   margin-bottom: 10px;
 }
+
 /* Configuração da div FORMULARIO P */
 .formulario p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -114,7 +115,7 @@ form .campo {
   transform: translateY(-14px);
 }
 
-/* Retirar a seleção das caixas de texto */
+/* Retirar a borda ao selecionar as caixas de input */
 .campo input:focus,
 select:focus {
   border: 0 none;
@@ -136,11 +137,10 @@ form input[type="submit"] {
   font-size: 1em;
   width: 7.5rem;
   height: 40px;
-  background-color: #ffffff;
+  background-color: #d9d9d9;
   border: none;
-  color: black;
   border-radius: 10px;
-  box-shadow: 1px 4px 7px black;
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.300);
   cursor: pointer;
   transition: .3s;
 }
@@ -159,11 +159,10 @@ form input[type="reset"] {
   font-size: 1em;
   width: 7.5rem;
   height: 40px;
-  background-color: #ffffff;
+  background-color: #d9d9d9;
   border: none;
   border-radius: 10px;
-  box-shadow: 1px 5px 5px black;
-  color: black;
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.300);
   cursor: pointer;
   transition: .3s;
 }
@@ -185,7 +184,6 @@ form a.botao {
   height: 40px;
   padding-top: 10px;
   margin-top: 10px;
-  
   border-radius: 10px;
   text-decoration: none;
   transition: .3s;
