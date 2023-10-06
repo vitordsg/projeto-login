@@ -94,7 +94,7 @@ form .campo {
   border-radius: 8px;
 }
 
-/* Configuração do ICONES / CAIXA DE TEXTO */
+/* Configuração do ICONES */
 .campo span {
   color: rgb(0, 0, 0);
   font-size: 2em;
@@ -102,12 +102,13 @@ form .campo {
   padding: 5px;
 }
 
+/* Configuração do Campo do input */
 .campo input {
   background-color: #eee;
   font-size: .9rem;
   height: 100%;
   border: none;
-  border-radius: px;
+  border-radius: 5px;
   width: calc(100% - 45.1px);
   padding: 9px;
   transform: translateY(-14px);
@@ -141,12 +142,14 @@ form input[type="submit"] {
   border-radius: 10px;
   box-shadow: 1px 4px 7px black;
   cursor: pointer;
+  transition: .3s;
 }
 
 /* Animação do Botão ENTRAR com CSS */
 form input[type="submit"]:hover {
   background-color: #737373b0;
   color: white;
+  transition: .3s;
 }
 
 /* Configuração do Botão LIMPAR */
@@ -178,19 +181,22 @@ form a.botao {
   grid-row: 1;
   text-align: center;
   font-size: 1em;
-  width: 50%;
+  width: 10rem;
   height: 40px;
   padding-top: 10px;
-  background-color: #ffffff;
+  margin-top: 10px;
+  
   border-radius: 10px;
   text-decoration: none;
-  color: black;
+  transition: .3s;
+  color: #737373;
 }
 
 /* Animação do Botão ESQUECI A SENHA */
 form a.botao:hover {
-  background-color: #737373;
+  background-color: #a8a8a8;
   color: white;
+  transition: .3s;
 }
 
 /* Tamanho do Icone do Botão ESQUECI A SENHA */

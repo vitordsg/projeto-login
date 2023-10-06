@@ -12,68 +12,104 @@ Grandes Telas: acima de 1200px
 
 /* Configuração para TABLET */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-image: linear-gradient(to bottom, #262626, #d9d9d9);
+  }
 
-    body {
-        background-image: linear-gradient(to bottom, #262626, #D9D9D9 );
-    }
+  .login {
+    width: 80vw;
+    height: 400px;
+  }
 
-    .login {
-        width: 80vw;
-        height: 400px;
-    }
+  .formulario h1 {
+    font-size: 1.7em;
+    border-radius: 3px 15px 3px 3px;
+  }
 
-    .formulario h1 {
-        font-size: 1.7em;
-        border-radius: 3px 15px 3px 3px;
-    }
-
-    .login .imagem {
+  .login .imagem {
     float: left;
     width: 30%;
     height: 100%;
-    
-    }
+  }
 
-    .login .formulario {
+  .login .formulario {
     float: right;
     width: 70%;
     height: 100%;
-    
-    }
+  }
 
+  .botoes {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 10px;
+    margin-top: 3rem;
+  }
+
+  form a.botao {
+    grid-row: 3;
+    grid-column: 1 / -1;
+    width: 15rem;
+  }
+
+  form input[type="submit"] {
+    width: 12rem;
+    margin-top: 0px;
+  }
+
+  form input[type="reset"] {
+    width: 12rem;
+    margin-top: 0px;
+  }
 }
 
 /* Configuração para TELAS GRANDES */
-@media screen  and (min-width: 992px) {
+@media screen and (min-width: 992px) {
+  body {
+    background-image: linear-gradient(to bottom, #262626, #d9d9d9);
+  }
 
-    body {
-        background-image: linear-gradient(to bottom, #262626, #D9D9D9 );
-    }
+  .login {
+    width: 950px;
+    height: 430px;
+  }
 
-    .login {
-        width: 950px;
-        height: 430px;
-        
-    }
+  .login .imagem {
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
 
-    .login .imagem {
-        float: right;
-        width: 50%;
-        height: 100%;
-    }
+  .login .formulario {
+    float: left;
+    width: 50%;
+  }
 
-    .login .formulario {
-        float: left;
-        width: 50%;
-    }
+  .formulario h1 {
+    font-size: 2em;
+    border-radius: 15px 4px 4px 4px;
+  }
 
-    .formulario h1 {
-        font-size: 2em;
-        border-radius: 15px 4px 4px 4px;
-    }
+  .formulario p {
+    font-size: 0.8em;
+    margin: 30px 0px;
+  }
 
-    .formulario  p {
-        font-size: .8em;
-        margin: 30px 0px;
-    }
+  .botoes {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 10px;
+    margin-top: 3rem;
+  }
+
+  form a.botao {
+    grid-row: 3;
+    grid-column: 1 / -1;
+    width: 15rem;
+  }
+
+  form input[type="submit"] {
+    width: 16rem;
+  }
+
+  .formulario input[type="reset"] {
+    width: 11.5rem;
+  }
 }
