@@ -106,7 +106,7 @@ form .campo {
 /* Configuração do Campo do input */
 .campo input {
   background-color: #eee;
-  font-size: .9rem;
+  font-size: 0.9rem;
   height: 100%;
   border: none;
   border-radius: 5px;
@@ -142,16 +142,16 @@ form input[type="submit"] {
   background-color: #d9d9d9;
   border: none;
   border-radius: 10px;
-  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.300);
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  transition: background-color .4s, color .4s ease-in-out;
+  transition: background-color 0.4s, color 0.4s ease-in-out;
 }
 
 /* Animação do Botão ENTRAR com CSS */
 form input[type="submit"]:hover {
   background-color: #737373b0;
   color: white;
-  transition: background-color .4s, color .4s ease-in-out;
+  transition: background-color 0.4s, color 0.4s ease-in-out;
 }
 
 /* Configuração do Botão LIMPAR */
@@ -164,16 +164,16 @@ form input[type="reset"] {
   background-color: #d9d9d9;
   border: none;
   border-radius: 10px;
-  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.300);
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  transition: background-color .4s, color .4s ease-in-out;
+  transition: background-color 0.4s, color 0.4s ease-in-out;
 }
 
 /* Animação do Botão LIMPAR com CSS*/
 form input[type="reset"]:hover {
   background-color: #737373b0;
   color: white;
-  transition: background-color .4s, color .4s ease-in-out;
+  transition: background-color 0.4s, color 0.4s ease-in-out;
 }
 
 /* Configuração do Botão ESQUECI A SENHA */
@@ -182,21 +182,21 @@ form a.botao {
   grid-row: 2;
   grid-column: 1 / -1;
   text-align: center;
-  font-size: .8rem;
+  font-size: 0.8rem;
   width: 9rem;
   height: 40px;
   padding-top: 10px;
   border-radius: 10px;
   text-decoration: none;
   color: #737373;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 /* Animação do Botão ESQUECI A SENHA */
 form a.botao:hover {
   text-decoration: none;
-  font-size: .9rem;
-  transition: .3s ease-in-out;
+  font-size: 0.9rem;
+  transition: 0.3s ease-in-out;
 }
 
 /* Tamanho do Icone do Botão ESQUECI A SENHA */
@@ -209,17 +209,17 @@ form a.criarConta {
   grid-row: 3;
   grid-column: 1 / -1;
   text-align: center;
-  font-size: .8rem;
+  font-size: 0.8rem;
   width: 6rem;
   height: 40px;
   padding-top: 10px;
   text-decoration: none;
   color: rgba(0, 0, 255, 0.796);
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 form a.criarConta:hover {
   text-decoration: none;
-  font-size: .9rem;
-  transition: .3s ease-in-out;
+  font-size: 0.9rem;
+  transition: 0.3s ease-in-out;
 }
