@@ -144,14 +144,14 @@ form input[type="submit"] {
   border-radius: 10px;
   box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.300);
   cursor: pointer;
-  transition: .3s;
+  transition: background-color .4s, color .4s ease-in-out;
 }
 
 /* Animação do Botão ENTRAR com CSS */
 form input[type="submit"]:hover {
   background-color: #737373b0;
   color: white;
-  transition: .3s;
+  transition: background-color .4s, color .4s ease-in-out;
 }
 
 /* Configuração do Botão LIMPAR */
@@ -166,14 +166,14 @@ form input[type="reset"] {
   border-radius: 10px;
   box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.300);
   cursor: pointer;
-  transition: .3s;
+  transition: background-color .4s, color .4s ease-in-out;
 }
 
 /* Animação do Botão LIMPAR com CSS*/
 form input[type="reset"]:hover {
   background-color: #737373b0;
   color: white;
-  transition: .3s;
+  transition: background-color .4s, color .4s ease-in-out;
 }
 
 /* Configuração do Botão ESQUECI A SENHA */
@@ -188,15 +188,15 @@ form a.botao {
   padding-top: 10px;
   border-radius: 10px;
   text-decoration: none;
-  transition: .3s;
   color: #737373;
+  transition: .3s ease-in-out;
 }
 
 /* Animação do Botão ESQUECI A SENHA */
 form a.botao:hover {
-  text-decoration: underline;
+  text-decoration: none;
   font-size: .9rem;
-  transition: .3s;
+  transition: .3s ease-in-out;
 }
 
 /* Tamanho do Icone do Botão ESQUECI A SENHA */
@@ -215,10 +215,11 @@ form a.criarConta {
   padding-top: 10px;
   text-decoration: none;
   color: rgba(0, 0, 255, 0.796);
+  transition: .3s ease-in-out;
 }
 
 form a.criarConta:hover {
-  text-decoration: underline;
+  text-decoration: none;
   font-size: .9rem;
-  transition: .3s;
+  transition: .3s ease-in-out;
 }
